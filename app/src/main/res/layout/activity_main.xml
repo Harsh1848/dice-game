@@ -8,27 +8,29 @@
     <Spinner
         android:id="@+id/dice_spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="48dp"
+        android:text="@array/dice_types" />
 
     <Button
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Roll"/>
+        android:textSize="18sp"
+        android:text="Roll" />
 
     <Button
         android:id="@+id/double_roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Roll Twice"/>
-
+        android:textSize="18sp"
+        android:text="Roll Twice" />
     <TextView
         android:id="@+id/results_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="25dp"/>
 
 </LinearLayout>
