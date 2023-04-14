@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="select_dice_prompt">Select a die</string>
+    <string-array name="dice_types">
+        <item>4-sided die</item>
+        <item>6-sided die</item>
+        <item>8-sided die</item>
+        <item>10-sided die</item>
+        <item>12-sided die</item>
+        <item>20-sided die</item>
+        <item>Custom die</item>
+    </string-array>
+</resources>
