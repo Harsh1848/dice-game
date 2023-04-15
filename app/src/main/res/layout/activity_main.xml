@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dice Rolling App"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/dice_spinner"
@@ -15,22 +24,35 @@
         android:id="@+id/roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:text="Roll" />
+        android:background="#ADD8E6"
+        android:paddingBottom="10dp"
+        android:text="Roll"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/double_roll_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:text="Roll Twice" />
+        android:background="#ADD8E6"
+        android:text="Roll Twice"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result:"
+        android:textSize="20sp" />
+
     <TextView
         android:id="@+id/results_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
         android:gravity="center"
+        android:textColor="#FFFFFF"
         android:textSize="40sp"
-        android:textStyle="bold"
-        android:layout_marginTop="25dp"/>
+        android:textStyle="bold" />
 
 </LinearLayout>
